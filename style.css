@@ -148,7 +148,8 @@ footer {
 .brand img {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: 9px;
+  box-shadow: 0 0 0 1px rgba(245, 218, 191, 0.2);
 }
 
 .lang {
@@ -268,8 +269,11 @@ footer {
   position: relative;
   z-index: 1;
   width: 58%;
-  border-radius: 28%;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(245, 218, 191, 0.15);
+  border-radius: 22.5%;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(245, 218, 191, 0.22),
+    0 0 60px rgba(212, 168, 83, 0.12);
   animation: float 6s ease-in-out infinite;
 }
 
